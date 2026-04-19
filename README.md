@@ -6,6 +6,10 @@ The IBM PC acts as a terminal, while a Raspberry Pi runs a lightweight large lan
 
 ---
 
+## Website
+https://aimutt.com/
+
+---
 ## ✨ Features
 
 - 🖥️ Runs on real IBM PC/XT hardware (or compatible systems)
@@ -13,7 +17,7 @@ The IBM PC acts as a terminal, while a Raspberry Pi runs a lightweight large lan
 - 🤖 Local AI inference (fully offline)
 - ⚡ Fast responses using `llama-server` (persistent model)
 - 🧠 Powered by Qwen 1.5B (or similar GGUF models)
-- 📜 Terminal-style interface written in QuickBASIC 4.0
+- 📜 Terminal-style interface written in QuickBASIC 4.0 (DOS .exe terminal app provided in .zip file)
 - 🧵 AI responses automatically wrapped for 80x25 text display
 - 🚫 No internet required once setup is complete
 
@@ -81,7 +85,7 @@ RX> California and Nevada.
 - Raspberry Pi 4 or 5  
 - USB to RS-232 adapter (FTDI recommended)  
 - Null modem cable or adapter (**required**)  
-- DOS + QuickBASIC (for building/modifying the terminal)  
+- DOS + QuickBASIC (for building/modifying the terminal). Or run the .exe DOS file located in the ALL-FILES-WITH-EXE.zip on the IBM PC.
 
 ---
 
