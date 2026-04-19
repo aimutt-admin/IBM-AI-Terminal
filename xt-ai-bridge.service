@@ -1,0 +1,16 @@
+[Unit]
+Description=XT AI Serial Bridge
+After=llama-server.service
+Requires=llama-server.service
+
+[Service]
+Type=simple
+User=user5
+
+ExecStart=/usr/bin/python3 /home/user5/xt_ai_bridge.py
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

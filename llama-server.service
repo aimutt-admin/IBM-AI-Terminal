@@ -1,0 +1,17 @@
+[Unit]
+Description=LLaMA Server (Qwen AI)
+After=network.target
+
+[Service]
+Type=simple
+User=user5
+WorkingDirectory=/home/user5/llama.cpp
+
+ExecStart=/home/user5/llama.cpp/build/bin/llama-server \
+  -hf bartowski/Qwen2.5-1.5B-Instruct-GGUF:Q4_K_M
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
