@@ -109,4 +109,4 @@ This project explores what computing might have looked like if modern AI existed
 ## 📜 License
 
 MIT License
-> You can use this code however you want — just give credit and don’t blame me if something breaks.
+> You can use this code however you want — just give credit to aimutt.com and don’t blame me if something breaks.
